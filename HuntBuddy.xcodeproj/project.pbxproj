@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		EFE86D21250FBD8D0021A1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE86D20250FBD8D0021A1F1 /* AppDelegate.swift */; };
 		EFE86D23250FBD8D0021A1F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE86D22250FBD8D0021A1F1 /* SceneDelegate.swift */; };
-		EFE86D25250FBD8D0021A1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE86D24250FBD8D0021A1F1 /* ViewController.swift */; };
+		EFE86D25250FBD8D0021A1F1 /* RandomizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE86D24250FBD8D0021A1F1 /* RandomizerViewController.swift */; };
 		EFE86D28250FBD8D0021A1F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE86D26250FBD8D0021A1F1 /* Main.storyboard */; };
 		EFE86D2A250FBD9A0021A1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE86D29250FBD9A0021A1F1 /* Assets.xcassets */; };
 		EFE86D2D250FBD9A0021A1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE86D2B250FBD9A0021A1F1 /* LaunchScreen.storyboard */; };
 		EFE86D38250FBD9A0021A1F1 /* HuntBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE86D37250FBD9A0021A1F1 /* HuntBuddyTests.swift */; };
 		EFE86D43250FBD9A0021A1F1 /* HuntBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE86D42250FBD9A0021A1F1 /* HuntBuddyUITests.swift */; };
+		EFE86D51251190EC0021A1F1 /* ContractsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE86D50251190EB0021A1F1 /* ContractsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		EFE86D1D250FBD8D0021A1F1 /* HuntBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuntBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE86D20250FBD8D0021A1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFE86D22250FBD8D0021A1F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFE86D24250FBD8D0021A1F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFE86D24250FBD8D0021A1F1 /* RandomizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizerViewController.swift; sourceTree = "<group>"; };
 		EFE86D27250FBD8D0021A1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFE86D29250FBD9A0021A1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFE86D2C250FBD9A0021A1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		EFE86D3E250FBD9A0021A1F1 /* HuntBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuntBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE86D42250FBD9A0021A1F1 /* HuntBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntBuddyUITests.swift; sourceTree = "<group>"; };
 		EFE86D44250FBD9A0021A1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE86D50251190EB0021A1F1 /* ContractsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				EFE86D20250FBD8D0021A1F1 /* AppDelegate.swift */,
 				EFE86D22250FBD8D0021A1F1 /* SceneDelegate.swift */,
-				EFE86D24250FBD8D0021A1F1 /* ViewController.swift */,
+				EFE86D24250FBD8D0021A1F1 /* RandomizerViewController.swift */,
 				EFE86D26250FBD8D0021A1F1 /* Main.storyboard */,
+				EFE86D50251190EB0021A1F1 /* ContractsViewController.swift */,
 				EFE86D29250FBD9A0021A1F1 /* Assets.xcassets */,
 				EFE86D2B250FBD9A0021A1F1 /* LaunchScreen.storyboard */,
 				EFE86D2E250FBD9A0021A1F1 /* Info.plist */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE86D25250FBD8D0021A1F1 /* ViewController.swift in Sources */,
+				EFE86D51251190EC0021A1F1 /* ContractsViewController.swift in Sources */,
+				EFE86D25250FBD8D0021A1F1 /* RandomizerViewController.swift in Sources */,
 				EFE86D21250FBD8D0021A1F1 /* AppDelegate.swift in Sources */,
 				EFE86D23250FBD8D0021A1F1 /* SceneDelegate.swift in Sources */,
 			);
